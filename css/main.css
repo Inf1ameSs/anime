@@ -4,7 +4,7 @@
     outline: none;
 }
 a {
-    color: #0ecea8;
+    color: #097462;
     text-decoration: none;
 }
 body {
@@ -55,19 +55,23 @@ main {
 }
 
 #header .menu-list a:hover {
-    color: #8dcbc7;
+    color: #4af5f5;
 }
-#logo {
+.logo {
     float: left;
     display: flex;
     align-items: center;
 }
-#logo img {
+.logo img {
     width: 100px;
 }
-#logo span {
+.logo span a:hover {
+
+}
+.logo span {
     font-size: 50px;
     font-weight: bold;
+    border-color: #8dcbc7;
     color: #8dcbc7;
     margin-left: 8px;
 }
@@ -75,17 +79,67 @@ main {
 .btn {
     padding: 8px 25px;
     border-radius: 8px;
-    border: 1px solid #8dcbc7;
-    color: #8dcbc7;
+    border: 1px solid #7dc9c5;
+    color: #94c4c2;
     font-weight: bold;
     cursor: pointer;
 }
 
 .btn:hover {
     border-color: #8dcbc7;
-    color: #8dcbc7;
+    color: #4af5f5;
 }
 
 .btn-auth {
     float: right;
 }
+footer {
+    background-color: #fcfcfc;
+    margin-top: 40px;
+    box-shadow: 0 1px 8px 0 #475468;
+}
+
+.first-footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .footer-menu {
+    list-style: none;
+}
+
+footer .footer-menu a {
+    color: #476865;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .footer-menu a:hover {
+    color: #61728d;
+}
+.last-footer-block {
+    background-color: #81b8b6;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.last-footer-block span {
+    cursor: default;
+}
+
+.last-footer-block ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.last-footer-block ul li:first-child {
+    margin-right: 15px;
+}
+
+.last-footer-block a:hover {
+    color: #a5d0cd;
