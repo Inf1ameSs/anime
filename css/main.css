@@ -57,6 +57,7 @@ main {
 #header .menu-list a:hover {
     color: #4af5f5;
 }
+
 .logo {
     float: left;
     display: flex;
@@ -140,4 +141,29 @@ footer .footer-menu a:hover {
 
 .last-footer-block a:hover {
     color: #a5d0cd;
+}
+.head-block
+{
+    background-color: #a0dbd5;
+    background-image: url("../img/banner.png");
+    height: 570px;
+    background-position: top 2% right;
+    background-size: 37%;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    box-shadow: 1px 10px 36px 8px #5f827b;
+}
+.head-block h1{
+    padding-top: 35px;
+}
+.head-block p{
+    color: #326d68;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.head-block img{
+    width: 409px;
+    position: absolute;
+    margin-left: -500px;
 }
