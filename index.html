@@ -6,88 +6,110 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Онямэ</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header id="header">
     <div class="container">
-            <a class="logo" href="http://h908957q.beget.tech/">
-                <img src="img/title.png"
-                     alt="logo">
-                <span>Главная - Аниме манга</span>
-            </a>
-            <nav>
-                <ul class="menu-list">
-                    <li><a href="#">главная</a></li>
-                    <li><a href="#">гугл</a></li>
-                    <li><a href="#">oписание</a></li>
-                </ul>
-            </nav>
-            <button class="btn btn-auth">Войти</button>
+        <a class="logo" href="http://h908957q.beget.tech/">
+            <img src="img/title.png"
+                 alt="logo">
+            <span>Главная - Аниме манга</span>
+        </a>
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#">главная</a></li>
+                <li><a href="#">гугл</a></li>
+                <li><a href="#">oписание</a></li>
+            </ul>
+        </nav>
+        <button class="btn btn-auth">Войти</button>
     </div>
 </header>
-<main>
-   <div class="head-block">
-
-      <div class="container">
-          <img src="img/banner2.png"
-               alt="Новинки">
-        <h1><a href="#" >Новинки</a></h1>
-        <p>Самые горячие новинки этого лета</p>
-      </div>
-   </div>
-
-     <div class="container">
-            <h2>Приключения</h2>
-            <p>В аниме про магию и приключения есть особый шарм – с персонажами
-                постоянно случаются необычные и впечатляющие происшествия, которые не
-                дают им заскучать. Иногда даже самая нелепая случайность может
-                изменить жизнь, подтолкнуть их к героическим
-                подвигам и кардинально поменять представление об окружающем мире.
-                Смотреть аниме про приключения – значит погружаться в водоворот
-                необыкновенных событий, полных новых эмоций.
-                В подобных мультфильмах могут присутствовать элементы таких жанров,
-                как комедия, драма, мистика, боевик и многих других.
-                Найти мультик по вкусу не составит труда, так как в нашей коллекции
-                собрано множество разнообразных историй.
-                Аниме фэнтези приключения перенесёт в волшебный мир, где есть место магии и чудесам.
-                Здесь обитают мифические существа, которые живут рядом с людьми и
-                помогают им достигать желаемого любыми путями.
-            </p>
-            <img src="img/jojo.jpg"
-                 width="200"
-                 alt="JOJO 2">
-            <a href="#" target="_blank">Подробнее Приключения</a>
+<main class="catalog-page">
+    <div class="head-block">
+        <div class="container">
+            <img src="img/banner2.png"
+                 alt="Новинки">
+            <h1><a href="#">Новинки</a></h1>
+            <p>Самые горячие новинки этого лета</p>
+        </div>
     </div>
+
     <div class="container">
-        <h3>HENTAI</h3>
-        <p>На разок передернуть</p>
-        <img src="img/hentai.png"
-             alt="Chitose"
-             width="200">
-        <a href="#" target="_blank">Подробнее</a>
+        <h2>Каталог</h2>
+        <aside class="filter-block">
+            <span>фильтры:</span>
+        </aside>
+        <div class="catalog-content">
+            <div class="cards-block">
+                <div class="card-item">
+                    <img src="img/jojo.jpg"
+                         width="200"
+                         alt="JOJO 2">
+                    <div class="card-text-items">
+                        <h3>Преключения</h3>
+                        <p>В аниме про магию и приключения есть особый шарм – с персонажами
+                            постоянно случаются необычные и впечатляющие происшествия, которые не
+                            дают им заскучать. Иногда даже самая нелепая случайность может
+                            изменить жизнь, подтолкнуть их к героическим
+                            подвигам и кардинально поменять представление об окружающем мире.
+                            Смотреть аниме про приключения – значит погружаться в водоворот
+                            необыкновенных событий, полных новых эмоций.
+                            В подобных мультфильмах могут присутствовать элементы таких жанров,
+                            как комедия, драма, мистика, боевик и многих других.
+                            Найти мультик по вкусу не составит труда, так как в нашей коллекции
+                            собрано множество разнообразных историй.
+                            Аниме фэнтези приключения перенесёт в волшебный мир, где есть место магии и чудесам.
+                            Здесь обитают мифические существа, которые живут рядом с людьми и
+                            помогают им достигать желаемого любыми путями.
+                        </p>
+                        <div><a class="btn" href="#" target="_blank">Подробнее Приключения</a></div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="img/hentai.png"
+                         alt="Chitose"
+                         width="200">
+                    <div class="card-text-items">
+                        <h3>HENTAI</h3>
+                        <p>Ни для кого не секрет, что аниме чрезвычайно разнообразный и разноплановый вид
+                            искусства, способный удовлетворить запросы любой возрастной категории зрителей,
+                            ведь он затрагивает практически все аспекты человеческой жизни, и сексуальные
+                            отношения не стали исключением, и именно о их воплощении в японской мультипликации
+                            и пойдёт речь. Для обозначения аниме продукции для взрослых традиционного характера
+                            (т.е. гетеросексуальные отношения) используют термин хинтай.
+                            Это слово изначально означающее «метаморфоза», приобрело сексуальный оттенок
+                            в конце XIX века, и с течением времени приобрело
+                            и вовсе уж вульгарный характер, особенно в западной культуре. </p>
+                       <div> <a class="btn" href="#" target="_blank">Подробнее Хентай</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 </main>
 
 <footer>
-        <div class="container first-footer-block">
-            <a class="logo" href="http://h908957q.beget.tech/">
-                <img src="img/title.png"
-                     alt="logo">
-                <span>MANGA</span>
-            </a>
+    <div class="container first-footer-block">
+        <ul class="footer-menu">
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Описание</a></li>
+        </ul>
+        <a class="logo" href="http://h908957q.beget.tech/">
+            <img src="img/title.png" alt="logo">
+            <span>MANGA</span>
+        </a>
+    </div>
+    <div class="last-footer-block">
+        <div class="container">
+            <span>© 2022 - MANGA </span>
+            <ul>
+                <li><a href="#">Политика конфидециальности</a></li>
+                <li><a href="#">Условия использования</a></li>
+            </ul>
         </div>
-        <div class="last-footer-block">
-            <div class="container">
-                <span>© 2022 - MANGA </span>
-                <ul>
-                    <li><a href="#">Политика конфидециальности</a></li>
-                    <li><a href="#">Условия использования</a></li>
-                </ul>
-            </div>
-
     </div>
 </footer>
 </body>
