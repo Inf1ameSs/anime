@@ -79,7 +79,9 @@ main {
     color: #8dcbc7;
     margin-left: 8px;
 }
-
+.logo:hover span {
+    color: #3f8c8e;
+}
 .btn {
     padding: 8px 25px;
     border-radius: 8px;
@@ -96,6 +98,8 @@ main {
 
 .btn-auth {
     float: right;
+    padding: 8px 25px;
+    border-radius: 8px;
 }
 footer {
     background-color: #fcfcfc;
@@ -208,6 +212,10 @@ footer .footer-menu a:hover {
     border-radius: 6px;
     margin-right: 15px;
 }
+.card-item .card-text-items .btn:hover {
+    color: #8dcbc7;
+    background-color: #3f8c8e;
+}
 .card-item .card-text-items {
     display: flex;
     flex-direction: column;
@@ -234,4 +242,117 @@ footer .footer-menu a:hover {
     text-overflow: ellipsis;
     padding-bottom: 50px;
     color: #3cb1b3;
+}
+.filter-block #filter-text {
+    margin-bottom: 10px;
+    color: #3f8c8e;
+}
+
+.filter-block .filter-item {
+    margin-bottom: 10px;
+    color: #3f8c8e;
+}
+
+.filter-block .filter-group {
+    margin-top: 5px;
+}
+
+.filter-block .filter-buttons {
+    text-align: center;
+}
+
+.filter-block .filter-button {
+    color: #ecebeb;
+    background-color: #3cb1b3;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.filter-block .filter-button:hover {
+    color: #ffffff;
+    background-color: #3f8c8e;
+}
+
+.checkbox input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.checkbox label::before {
+    content: '\00A0';
+    color: #eae5e5;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #3cb1b3;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.checkbox input:checked+label::before {
+    content: "\2717";
+    border-color: #3cb1b3;
+    background-color: #3cb1b3;
+}
+
+.checkbox {
+    color: #22595a;
+}
+.radio-toggle {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.radio-toggle .radio {
+    float: left;
+    display: inline-block;
+}
+
+.radio-toggle input[type=radio] {
+    display: none;
+}
+
+.radio-toggle label {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 34px;
+    border: 1px solid #3cb1b3;
+    cursor: pointer;
+    user-select: none;
+}
+
+.radio-toggle .radio:first-child label {
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.radio-toggle .radio:last-child label {
+    border-radius: 0 8px 8px 0;
+}
+
+.radio-toggle input[type=radio]:checked + label {
+    background: #3cb1b3;
+    color: #eae5e5;
+}
+
+.catalog-content {
+    display: flex;
+    flex-direction: column;
 }
